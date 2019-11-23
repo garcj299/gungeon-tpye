@@ -33,6 +33,47 @@ if (place_meeting(x + hsp, y, obj_wall))
 }
 x = x + hsp;
 
+//animatios
+//frame_counter
+frame_counter -= 1;
+if (frame_counter <= 0)
+{
+frames += 1;
+frame_counter = 60;
+}
+//standing still 
+
+if (hsp = 0) and (vsp = 0) 
+{
+	if (frames >= 4)
+	{
+		frames = 0;
+	}
+}
+if (frames <= 4) image_index = frames;
+
+if (hsp > 0)
+{
+	if (frames < 5) or (frames > 7)
+	{
+		frames = 5;
+	}
+}
+if (frames <= 7) image_index = frames;
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
