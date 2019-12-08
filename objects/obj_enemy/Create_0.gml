@@ -1,3 +1,3 @@
-hsp = 4;
-vsp = 2;
+hsp = 0;
+vsp = 0;
 walksp = 8;
