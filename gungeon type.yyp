@@ -87,11 +87,27 @@
             }
         },
         {
+            "Key": "2b992a61-e72c-4eca-8ffd-015fbc4e7c57",
+            "Value": {
+                "id": "483d5a20-1fa5-45f4-94c6-4b1f8a8dce0e",
+                "resourcePath": "sprites\\spr_enemy_gun\\spr_enemy_gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2db2b98e-4ae3-46e0-afca-5ffc2c955b1c",
             "Value": {
                 "id": "7787685b-cdfd-433e-8c1b-c7cd6c7b2de3",
                 "resourcePath": "views\\2db2b98e-4ae3-46e0-afca-5ffc2c955b1c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "31a26678-d458-495c-9942-376dc61f2c81",
+            "Value": {
+                "id": "c85e32e9-2abc-4741-ba0c-6cca675e3eae",
+                "resourcePath": "objects\\obj_variable_checker\\obj_variable_checker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -140,6 +156,14 @@
                 "id": "6bd822bc-a02c-4b17-9a6f-d3a4367f0993",
                 "resourcePath": "views\\7417b778-cb65-4ba5-b59e-01b1aaaf7d4d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "758cd192-2ef7-44fb-ae8f-65fde6979f25",
+            "Value": {
+                "id": "87c2d575-8ee4-4038-8ba7-1f5b4ea679d2",
+                "resourcePath": "objects\\obj_enemy_bullet\\obj_enemy_bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -223,6 +247,14 @@
             }
         },
         {
+            "Key": "dd1269c8-1437-4e4f-985d-a3618dd9b02b",
+            "Value": {
+                "id": "4c061d0a-198e-4a42-b161-b86488b469ed",
+                "resourcePath": "sprites\\spr_enemy_bullet\\spr_enemy_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e1a0b984-3fba-4ca5-b596-47afa94bf17d",
             "Value": {
                 "id": "8c951af9-e0d5-4706-b410-48b893782a3d",
@@ -252,6 +284,14 @@
                 "id": "362d42dd-bcb8-4bdd-b97c-a5e8214ebe3b",
                 "resourcePath": "views\\ec8ad462-8131-4d11-b95d-b657d3118593.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f492de43-9553-4a35-a0ee-1ec3f1321387",
+            "Value": {
+                "id": "3ca3bdac-3e08-468c-9ca9-615db8892fa9",
+                "resourcePath": "objects\\obj_enemy_gun\\obj_enemy_gun.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

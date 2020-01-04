@@ -41,58 +41,54 @@ if (frame_counter <= 0)
 frames += 1;
 frame_counter = 10;
 }
-//standing still 
+image_index = frames;
 
+//standing still 
 if (hsp = 0) and (vsp = 0) 
 {
-	if (frames >= 4)
+	if (frames >= 5)
 	{
-		frames = 0;
+		frames = 1;
 	}
-if (frames <= 4) image_index = frames;
 }
 
 //moving right
-if (hsp > 0) and (vsp = 0)
+if (hsp > 0)
 {
-	if (frames < 5) or (frames > 7)
+	if (frames < 7) or (frames > 9)
 	{
-		frames = 5;
+		frames = 7;
 	}
-if (frames <= 7) image_index = frames;
 }
 
 //moving left 9,11
 
-if (hsp < 0) and (vsp = 0)
+if (hsp < 0)
 {
-	if (frames < 9) or (frames > 11)
+	if (frames < 11) or (frames > 13)
 	{
-		frames = 9;
+		frames = 11;
 	}
-if (frames < 12) image_index = frames;
 }
 
 //moving down 12,16
 
 if (vsp > 0) and (hsp = 0)
 {
-	if (frames < 12) or (frames > 16)
+	if (frames < 15) or (frames > 19)
 	{
-		frames = 12;
+		frames = 15;
 	}
-if (frames <= 16) image_index = frames;
 }
 
 //moving up 17,21
 
 if (vsp < 0) and (hsp = 0)
 {
-	if (frames < 17) or (frames > 21)
+	if (frames < 21) or (frames > 25)
 	{
-		frames = 17;
+		frames = 21;
 	}
-if (frames <= 21) image_index = frames;
 }
 
 
