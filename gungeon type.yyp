@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "ea60fc71-6388-4289-9f3c-d6cb442ab933",
+            "Value": {
+                "id": "f8c94fad-6cea-4501-b766-ce7c04f1948a",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec8ad462-8131-4d11-b95d-b657d3118593",
             "Value": {
                 "id": "362d42dd-bcb8-4bdd-b97c-a5e8214ebe3b",
