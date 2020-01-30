@@ -10,4 +10,7 @@ with (obj_player)
 	draw_text(370,400,"reloading = " + string(obj_gun.reloading))
 	draw_text(370,380,"ammo_count = " + string(obj_gun.ammo_count))
 	draw_text(370,360,"reload_counter = " + string(obj_gun.reload_counter))
+	draw_text(370,340,"actually_reload = " + string(obj_ammo.actually_reload))
+	draw_text(370,320,"reload_animation = " + string(obj_ammo.reload_animation))
+	
 }

@@ -8,10 +8,19 @@ if (obj_gun.reload_counter = 0)
 }
 else
 {
-	actually_reload = false
+	actually_reload = false;
 }
 
 if (actually_reload = true) and (obj_gun.ammo_count != 5)
 {
 	obj_gun.ammo_count = 5;
+}
+//reload_animation happens
+if (obj_gun.reload_counter > 0)
+{
+	reload_animation = true;
+}
+else
+{
+	reload_animation = false;
 }

@@ -16,9 +16,9 @@ else
 	reloading = false;
 }
 
-if (keyboard_check(ord("E")))
+if ((keyboard_check(ord("E"))) and (ammo_count != 5)) or ((mouse_check_button_pressed(mb_right)) and (ammo_count != 5))
 {
-	reload_counter = 50;
+	reload_counter = 100;
 }
 reload_counter -= 1;
 //firign
