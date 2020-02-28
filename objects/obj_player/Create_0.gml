@@ -5,3 +5,5 @@ walksp = 5;
 frames = 0;
 frame_counter = 0;
 //0-4 standing still
+
+hp = 14;

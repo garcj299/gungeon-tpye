@@ -91,7 +91,13 @@ if (vsp < 0) and (hsp = 0)
 	}
 }
 
+//health
 
+//if (hp = 15) or (hp <= 0)
+{
+//	you_loose = true;
+//	room = room_you_loose;
+}
 
 
 

@@ -1,6 +1,7 @@
 /// @description Insert description here
 
 //position
+
 x = obj_player.x;
 y = obj_player.y+10;
 
@@ -16,13 +17,15 @@ else
 	reloading = false;
 }
 
-if ((keyboard_check(ord("E"))) and (ammo_count != 5)) or ((mouse_check_button_pressed(mb_right)) and (ammo_count != 5))
+if ((keyboard_check(ord("E"))) and (ammo_count != 5)) or ((mouse_check_button_pressed(mb_right)) and (ammo_count != 5)) and (can_reload < 0)
 {
 	reload_counter = 100;
+	can_reload = 120;
 }
+can_reload -= 1;
 reload_counter -= 1;
-//firign
 
+//firign
 firingcooldown -= 1;
 if (mouse_check_button(mb_left)) and (firingcooldown < 0) and (ammo_count > 1)
 {
@@ -40,3 +43,10 @@ else
 	image_speed = 0;
 	image_index = 0;
 }
+
+
+
+
+
+
+
