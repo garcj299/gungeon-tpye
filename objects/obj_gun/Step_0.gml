@@ -1,10 +1,21 @@
 /// @description Insert description here
 
 //position
-
-x = obj_player.x;
-y = obj_player.y+10;
-
+if (obj_player.hsp < 0)
+{
+	x = obj_player.x - 40;
+	y = obj_player.y + 15;
+}
+else if (obj_player.hsp > 0)
+{
+	x = obj_player.x + 20;
+	y = obj_player.y + 15;
+}
+else
+{
+	x = obj_player.x;
+	y = obj_player.y + 15;
+}
 image_angle = point_direction(x,y, mouse_x, mouse_y);
 
 //reloading

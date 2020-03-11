@@ -39,7 +39,7 @@ frame_counter -= 1;
 if (frame_counter <= 0)
 {
 frames += 1;
-frame_counter = 10;
+frame_counter = 30;
 }
 image_index = frames;
 
@@ -55,7 +55,7 @@ if (hsp = 0) and (vsp = 0)
 //moving right
 if (hsp > 0)
 {
-	if (frames < 7) or (frames > 9)
+	if (frames < 7) or (frames >= 9)
 	{
 		frames = 7;
 	}
@@ -65,7 +65,7 @@ if (hsp > 0)
 
 if (hsp < 0)
 {
-	if (frames < 11) or (frames > 13)
+	if (frames < 11) or (frames >= 13)
 	{
 		frames = 11;
 	}
@@ -75,7 +75,7 @@ if (hsp < 0)
 
 if (vsp > 0) and (hsp = 0)
 {
-	if (frames < 15) or (frames > 19)
+	if (frames < 15) or (frames >= 19)
 	{
 		frames = 15;
 	}
@@ -85,7 +85,7 @@ if (vsp > 0) and (hsp = 0)
 
 if (vsp < 0) and (hsp = 0)
 {
-	if (frames < 21) or (frames > 25)
+	if (frames < 21) or (frames >= 25)
 	{
 		frames = 21;
 	}
