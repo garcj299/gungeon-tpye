@@ -16,8 +16,18 @@ else
 	x = obj_player.x;
 	y = obj_player.y + 15;
 }
+
 image_angle = point_direction(x,y, mouse_x, mouse_y);
 
+if (image_angle > 90) and (image_angle < 270)
+{
+	image_yscale = -2;
+
+}
+else
+{
+	image_yscale = 2;
+}
 //reloading
 if (ammo_count = 1)
 {
