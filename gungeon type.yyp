@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "89ab4af5-8318-43b8-b7ac-b0317cfa8a6f",
+            "Value": {
+                "id": "3b809a87-ae95-4547-8315-bc2ec28eb6c2",
+                "resourcePath": "objects\\obj_gunpickup\\obj_gunpickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a4981f8-f4a8-428b-a57c-f877d2555e34",
             "Value": {
                 "id": "23c8f7c3-6ef6-410c-9362-9ae9ccee1004",
@@ -252,6 +260,14 @@
                 "id": "464b2e3f-dd1e-4ed9-bd13-cee8c538813a",
                 "resourcePath": "views\\a08ab35f-076a-4ce7-86f3-00baa3823a0d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b2b37db1-665c-450e-afef-2a301202a373",
+            "Value": {
+                "id": "ce099c95-0058-4a24-b233-d1ea8480c9bd",
+                "resourcePath": "sprites\\spr_gunpickup\\spr_gunpickup.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
