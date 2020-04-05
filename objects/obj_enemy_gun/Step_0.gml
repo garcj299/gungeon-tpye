@@ -4,9 +4,6 @@
 if (instance_exists(obj_enemy))
 {
 
-//positon
-x = obj_enemy.x;
-y = obj_enemy.y;
 image_angle = point_direction(x,y,obj_player.x,obj_player.y);
 
 //shooting

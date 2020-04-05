@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-//0 health = 15;
+
+with (enemygun)
+{
+	instance_destroy();
+}

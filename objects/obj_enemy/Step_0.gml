@@ -1,13 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+with (enemygun)
+{
+	x = other.x;
+	y = other.y;
+}
 x_point = obj_player.x;
 y_point = obj_player.y;
-//enemy_speed = 2;
 
 var maxrot = 30;
 var rotstep = 10;
-var ahead = 3;
+var ahead = 15;
 var onspot = true;
 
 mp_potential_settings( maxrot, rotstep, ahead, onspot);

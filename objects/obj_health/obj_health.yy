@@ -5,16 +5,6 @@
     "name": "obj_health",
     "eventList": [
         {
-            "id": "b7d78da7-9b42-40c6-8105-83e9b594b046",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7f792db0-112c-4ba6-ba9c-54d44828de05"
-        },
-        {
             "id": "f59b8bee-fb4f-4dd6-a2d0-8f8faa52cf72",
             "modelName": "GMEvent",
             "mvc": "1.0",
