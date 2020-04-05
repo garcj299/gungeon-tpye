@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "90fa74e9-a1fa-4100-a12d-f49862c2d769",
+            "Value": {
+                "id": "0739d096-9cab-44f5-b93b-9ae3b14d1d86",
+                "resourcePath": "sprites\\spr_destroyable\\spr_destroyable.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a08ab35f-076a-4ce7-86f3-00baa3823a0d",
             "Value": {
                 "id": "464b2e3f-dd1e-4ed9-bd13-cee8c538813a",
