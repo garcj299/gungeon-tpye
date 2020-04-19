@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "74b7b227-5751-4828-b13b-acaae93025b8",
+            "Value": {
+                "id": "f02c8f8e-f055-4215-8ada-b58db8c19675",
+                "resourcePath": "sprites\\spr_enemy_activator\\spr_enemy_activator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "758cd192-2ef7-44fb-ae8f-65fde6979f25",
             "Value": {
                 "id": "87c2d575-8ee4-4038-8ba7-1f5b4ea679d2",
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "3b809a87-ae95-4547-8315-bc2ec28eb6c2",
                 "resourcePath": "objects\\obj_gunpickup\\obj_gunpickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "89fa723d-0ceb-43fd-9d4b-746c496150b3",
+            "Value": {
+                "id": "5b31c58f-861c-4003-a856-685417f0a5b2",
+                "resourcePath": "objects\\obj_enemy_activator\\obj_enemy_activator.yy",
                 "resourceType": "GMObject"
             }
         },

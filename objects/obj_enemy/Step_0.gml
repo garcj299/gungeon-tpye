@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (obj_enemy_activator.enemy_activate = required_code)
+{
+	
+	
 with (enemygun)
 {
 	x = other.x;
@@ -16,7 +20,7 @@ var onspot = true;
 mp_potential_settings( maxrot, rotstep, ahead, onspot);
 
 
-if (!point_in_circle(obj_player.x,obj_player.y,x,y,256))
+if (!point_in_circle(obj_player.x,obj_player.y,x,y,256)) 
 {
 
 	enemy_speed = 2;
@@ -34,4 +38,5 @@ if (enemy_health = 0)
 {
 	enemy_alive = false;
 	instance_destroy();
+}
 }
