@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+	yeet = random_variable + random_variable;
+	random_variable = yeet;
 	with (obj_player)
 	{
 		draw_text(370,500,"hsp = " + string(hsp))
@@ -20,4 +22,5 @@
 		}
 		draw_text(370,520,"hp = " + string(obj_player.hp))
 		draw_text(370,540,"obj_health.image_angle= " + string(obj_health.image_index))
+		draw_text(370,560,string(other.yeet))	
 	}

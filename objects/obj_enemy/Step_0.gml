@@ -40,3 +40,7 @@ if (enemy_health = 0)
 	instance_destroy();
 }
 }
+else
+{
+	obj_enemy_gun.can_shoot = 200;
+}

@@ -3,7 +3,9 @@
 if (place_meeting(x,y, obj_player))
 {
 	enemy_activate = enemy_activate + 1;
-	y = y - 500;
+	//instance_position(x - 300, y - 500, obj_enemy_activator)
+	
 	x = x - 300;
+	y = y - 500;
 }
 
