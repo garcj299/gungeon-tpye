@@ -9,6 +9,8 @@ if (instance_exists(obj_gun))
 	if (obj_gun.reload_counter = 99)
 	{
 		image_index = 1;
+		audio_play_sound(snd_reload,9,false);
+		
 	}
 
 	if (obj_ammo.reload_animation = true)

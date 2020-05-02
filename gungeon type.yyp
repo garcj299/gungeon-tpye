@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "334f7e31-2c35-4fc9-b8da-4b3d67a921d0",
+            "Value": {
+                "id": "0096f946-ec2f-4cca-a502-117c9bdfc9b6",
+                "resourcePath": "objects\\obj_score\\obj_score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "371bc6d9-81e0-4cf4-811f-e8b18f086360",
             "Value": {
                 "id": "ad2f844b-4195-4698-96df-3fdf21dec486",
@@ -143,11 +151,27 @@
             }
         },
         {
+            "Key": "3f6170db-d9c7-4fd7-942f-f36e487c7b0b",
+            "Value": {
+                "id": "ec884f81-3526-47c4-8978-4bfc46065c01",
+                "resourcePath": "sprites\\spr_mele\\spr_mele.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4074e469-dcad-47c6-a05a-98b392f79e5b",
             "Value": {
                 "id": "423df90e-0d6a-487a-a85b-94c8a016a534",
                 "resourcePath": "objects\\obj_gun\\obj_gun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "453d5e2a-efef-4563-ad61-60092cba848f",
+            "Value": {
+                "id": "29d174d7-7226-4dfb-84f0-341eb6d56f75",
+                "resourcePath": "fonts\\fnt_score\\fnt_score.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -164,6 +188,14 @@
                 "id": "b9b18b4b-1ed5-49fb-bf25-876f821b68c6",
                 "resourcePath": "views\\4f4af0e7-f0eb-44d6-8f2a-49c344be16b4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "54e43a7b-debf-4e6f-b9a3-0b43bc6e61f4",
+            "Value": {
+                "id": "ea3b51dd-7a95-43a1-94c7-24dc229cf59d",
+                "resourcePath": "sounds\\snd_gun_shot\\snd_gun_shot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -279,11 +311,35 @@
             }
         },
         {
+            "Key": "927d2fdf-9321-4372-b643-be418659c8a0",
+            "Value": {
+                "id": "3d883fbe-a36e-4972-ae8a-b1d62706bd28",
+                "resourcePath": "objects\\obj_weapon_change\\obj_weapon_change.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b934bd1-c010-425d-942e-e4bd8364ba89",
+            "Value": {
+                "id": "3fb2186b-c014-482d-85fe-55eecdc7bedb",
+                "resourcePath": "objects\\obj_mele\\obj_mele.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a08ab35f-076a-4ce7-86f3-00baa3823a0d",
             "Value": {
                 "id": "464b2e3f-dd1e-4ed9-bd13-cee8c538813a",
                 "resourcePath": "views\\a08ab35f-076a-4ce7-86f3-00baa3823a0d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a808eafc-ceb5-4097-9429-ed19b3d504b9",
+            "Value": {
+                "id": "5608c507-6479-404b-a60c-cc3d19637c60",
+                "resourcePath": "sounds\\snd_reload\\snd_reload.yy",
+                "resourceType": "GMSound"
             }
         },
         {

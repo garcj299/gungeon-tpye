@@ -28,6 +28,7 @@ else
 {
 	image_yscale = 2;
 }
+
 //reloading
 if (ammo_count = 1)
 {
@@ -54,6 +55,7 @@ if (mouse_check_button(mb_left)) and (firingcooldown < 0) and (ammo_count > 1)
 	with instance_create_layer(x,y,"bullet_layer", obj_bullet)
 	{
 		other.ammo_count -= 1;
+		audio_play_sound(snd_gun_shot, 20 ,false);
 		speed = 25;
 		image_angle = other.image_angle;
 		direction = other.image_angle;
